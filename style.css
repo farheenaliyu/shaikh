@@ -486,5 +486,20 @@ footer {
     color: #3ddc84;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
 
 
